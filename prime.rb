@@ -4,7 +4,7 @@ def prime?(int)
   range.each do |idx|
     count += 1 if int % idx == 0
   end
-    
+
   if count == 0
     return true
   else
