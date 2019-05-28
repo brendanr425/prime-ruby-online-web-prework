@@ -1,5 +1,9 @@
 def prime?(int)
-  range = (2...int).to_a
+  if int < 0
+    return false
+  end
+  
+  else
   count = 0
   range.each do |idx|
     count += 1 if int % idx == 0
