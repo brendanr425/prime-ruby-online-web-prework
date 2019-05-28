@@ -1,5 +1,5 @@
 def prime?(int)
-  range = (2...int)
+  range = (2...int).to_a
   count = 0
   range.each do |idx1|
     range.each do |idx2|
