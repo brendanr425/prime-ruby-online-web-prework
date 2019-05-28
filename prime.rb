@@ -2,6 +2,7 @@ def prime?(int)
   if int <= 1
     return false
   end
+  range = (2...int)
   count = 0
   range.each do |idx|
     count += 1 if int % idx == 0
